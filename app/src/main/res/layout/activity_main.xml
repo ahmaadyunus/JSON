@@ -11,80 +11,27 @@
     tools:context="com.example.ahmaadyunus.json.MainActivity">
 
     <TextView
-
-        android:layout_width="wrap_content"
-
-        android:layout_height="wrap_content"
-
+        style="@style/text_view"
         android:text=""
-
         android:id="@+id/tv_name_nine"
-
-        android:layout_alignParentTop="true"
-
-        android:layout_alignParentLeft="true"
-
-        android:layout_alignParentStart="true"
-
-        android:textSize="24dp"/>
-
+        android:layout_alignParentTop="true" />
     <TextView
-
-        android:layout_width="wrap_content"
-
-        android:layout_height="wrap_content"
-
+        style="@style/text_view"
         android:text="Address"
-
         android:id="@+id/textView"
-
-        android:textSize="24dp"
-
         android:layout_below="@+id/tv_name_nine"
-
-        android:layout_alignParentLeft="true"
-
-        android:layout_alignParentStart="true"
-
         android:layout_marginTop="40dp"/>
-
     <TextView
-
-        android:layout_width="wrap_content"
-
-        android:layout_height="wrap_content"
-
+        style="@style/text_view"
         android:text=""
-
         android:id="@+id/tv_city_nine"
-
-        android:textSize="24dp"
-
         android:layout_marginTop="29dp"
-
         android:layout_below="@+id/textView"
-
-        android:layout_alignParentLeft="true"
-
-        android:layout_alignParentStart="true"/>
-
+        />
     <TextView
-
-        android:layout_width="wrap_content"
-
-        android:layout_height="wrap_content"
-
+        style="@style/text_view"
         android:text=""
-
         android:id="@+id/tv_province_nine"
-
-        android:textSize="24dp"
-
         android:layout_marginTop="26dp"
-
-        android:layout_below="@+id/tv_city_nine"
-
-        android:layout_alignParentLeft="true"
-
-        android:layout_alignParentStart="true"/>
+        android:layout_below="@+id/tv_city_nine" />
 </RelativeLayout>
